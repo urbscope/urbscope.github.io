@@ -1,0 +1,185 @@
+@import url("animate.css");
+
+/*#032149	(3,33,73) blue
+#042c62	(4,44,98) lighter blue
+#002448	(0,36,72) greyer blue
+#021631	(2,22,49) darkest blue
+#e5e5e5   grey white*/
+/*http://www.color-hex.com/color-palette/355*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+
+  font-family: 'Quicksand';
+  background-color: #e5e5e5;
+
+  /* Standard syntax */
+  /*background-image: url("ps-neutral.png");*/
+}
+
+
+.intro {
+  height: 100%;
+  width: 100%;
+  display: table;
+  top: 0;
+}
+
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  background: linear-gradient(to right, #021631 , #032149, #002448);
+  box-shadow: 1px 1px 10px 0 #333;
+}
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 5%;
+  animation: fadeInDown 1s;
+}
+
+.title-heading h1 {
+  font-size: 500%;
+  line-height: 150%;
+  transition: all 0.5s;
+  color: #e5e5e5;
+}
+
+.button-title {
+  font-size: 135%;
+  color: #e5e5e5;
+  text-decoration: none;
+  border: solid #e5e5e5;
+  border-radius: 10px;
+  padding: 2px 20px 6px;
+  transition: all 0.5s;
+}
+
+.button-title:hover {
+  color: #002448;
+  text-decoration: none;
+  border: solid #e5e5e5;
+  background-color: #e5e5e5;
+
+}
+
+.block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  margin: auto;
+  border-bottom: 1px solid #bbb;
+}
+
+.button {
+  text-decoration: none;
+  color: #002448;
+  display: inline-block;
+  width: 20%;
+  font-size: 130%;
+  text-align: center;
+  padding: 10px;
+  border: solid #002448;
+  border-radius: 10px;
+  margin: 0 2%;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: #e5e5e5;
+  background-color: #002448;
+}
+
+.button-disabled {
+  cursor: default;
+  color: #999;
+  border-color: #999;
+}
+
+.button-disabled:hover {
+  color: #999;
+  border-color: #999;
+  background-color: #e5e5e5;
+}
+
+#reports .button {
+  display: block;
+  margin: 3% auto;
+  width: 40%;
+}
+
+
+@media screen and (max-width: 900px) {
+  .content {
+    padding-bottom: 5%;
+  }
+  .content h1 {
+    font-size: 375%;
+  }
+  .button-title {
+    font-size: 110%;
+    padding: 1px 15px 4px;
+  }
+  .button {
+    font-size: 110%;
+    width: 25%;
+    margin: 2%;
+  }
+  #reports .button {
+    width: 40%;
+    margin: 3% auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    padding-bottom: 5%;
+  }
+  .content h1 {
+    font-size: 300%;
+  }
+  .button-title {
+    font-size: 100%;
+    padding: 1px 15px 4px;
+  }
+  .button {
+    font-size: 100%;
+    width: 25%;
+    margin: 2%;
+  }
+  #reports .button {
+    width: 50%;
+    margin: 4% auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content {
+    padding-bottom: 5%;
+  }
+  .content h1 {
+    font-size: 350%;
+
+  }
+  .button-title {
+    font-size: 110%;
+    padding: 3px 15px 4px;
+  }
+  .button {
+    display: block;
+    font-size: 100%;
+    width: 70%;
+    margin: 10% auto;
+  }
+  #reports .button {
+    width: 70%;
+    margin: 10% auto;
+  }
+}
