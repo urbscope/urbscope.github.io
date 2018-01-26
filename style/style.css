@@ -20,6 +20,14 @@ html, body {
   /*background-image: url("ps-neutral.png");*/
 }
 
+.skyline {
+  width: 60%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 
 .intro {
   height: 100%;
@@ -59,6 +67,8 @@ html, body {
   border-radius: 10px;
   padding: 2px 20px 6px;
   transition: all 0.5s;
+  position: relative;
+  z-index: 1;
 }
 
 .button-title:hover {
@@ -66,7 +76,6 @@ html, body {
   text-decoration: none;
   border: solid #e5e5e5;
   background-color: #e5e5e5;
-
 }
 
 .block {
