@@ -453,7 +453,7 @@
 			 }
 
 			 .building:hover {
- 				 fill: #FFFFE0;
+ 				 fill: #FFFF66;
 				 z-index: 1;
 			 }
 
