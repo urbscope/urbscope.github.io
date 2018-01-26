@@ -453,8 +453,7 @@
 			 }
 
 			 .building:hover {
-			 	 zoom: 150%;
- 				 fill: yellow;
+ 				 fill: #FFFFE0;
 				 z-index: 1;
 			 }
 
