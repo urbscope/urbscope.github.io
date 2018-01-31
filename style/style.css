@@ -124,6 +124,111 @@ html, body {
   width: 40%;
 }
 
+#about-section-intro {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.about-title {
+  font-size: 1.8em;
+  color: #002448;
+}
+
+.about-pargraph-section {
+  opacity: 0;
+  transition: all 0.6s;
+  text-align: inherit;
+  font-size: 0.9em;
+  padding: 10px;
+  cursor: default;
+}
+
+.about-title-section {
+  transition: all 1s;
+  cursor: s-resize;
+  border: solid #002448;
+  color: #002448;
+  padding: 15px;
+  font-size: 1em;
+  border-radius: 10px;
+  top: 75px;
+  margin-top: 50px;
+}
+
+.about-title-section:hover {
+  color: #e5e5e5;
+  background-color: #002448;
+  top: 0;
+  margin-top: 0;
+  border: solid #002448;
+  border-radius: 10px;
+}
+
+.about-title-section:hover + .about-pargraph-section {
+  display: block;
+  opacity: 1;
+}
+
+.about-section {
+  width: 23%;
+  height: 325px;
+  margin: 0 2% 1%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#about-section-members {
+  width: 100%;
+  margin: auto;
+}
+
+.about-title-members {
+  display: block;
+  width: 20%;
+  transition: all 0.5s;
+  border: solid #002448;
+  color: #002448;
+  font-size: 1em;
+  border-radius: 10px;
+  padding: 0.4%;
+  margin: 0 auto 2%;
+  cursor: s-resize;
+  position: relative;
+  z-index: 1;
+}
+
+.member {
+  display: inline-block;
+  margin: 0 2%;
+}
+
+.members {
+  display: block;
+  opacity: 0;
+  transition: all 1s;
+}
+.about-title-members:hover {
+  color: #e5e5e5;
+  background-color: #002448;
+}
+
+.about-title-members:hover + .members {
+  display: block;
+  opacity: 1;
+}
+
+
+#about-section-outro {
+  font-size: 1.2em;
+  transition: all 0.5s;
+  cursor: default;
+  margin: 3% 0;
+}
+#about-section-outro:hover {
+  color: red;
+  font-size: 1.6em;
+}
 
 @media screen and (max-width: 900px) {
   .content {
@@ -144,6 +249,31 @@ html, body {
   #reports .button {
     width: 40%;
     margin: 3% auto;
+  }
+  .skyline {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .about-section {
+    width: 25%;
+    height: 360px;
+    margin: 0 1% 1%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .about-title-section {
+    padding: 13px;
+    font-size: 0.9em;
+  }
+
+  .about-title-members:hover {
+    top: 0;
   }
 }
 
@@ -167,6 +297,14 @@ html, body {
     width: 50%;
     margin: 4% auto;
   }
+  .skyline {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -186,9 +324,72 @@ html, body {
     font-size: 100%;
     width: 70%;
     margin: 10% auto;
+    border-width: 1px;
   }
   #reports .button {
     width: 70%;
     margin: 10% auto;
   }
+  .skyline {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  #about-section-intro {
+    width: 90%;
+    font-size: 0.8em;
+  }
+  .about-title {
+    font-size: 1.1em;
+  }
+
+  .about-section {
+    width: 30%;
+    height: 200px;
+    margin: 0 0.3% 1%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .about-title-section {
+    padding: 6px 2px;
+    border-width: 1px;
+    font-size: 0.55em;
+  }
+  .about-pargraph-section {
+    text-align: inherit;
+    font-size: 0.55em;
+    padding: 5px;
+    cursor: default;
+  }
+
+  #about-section-members {
+    width: 100%;
+    margin: auto;
+  }
+
+  .about-title-members {
+    display: block;
+    width: 30%;
+    border-width: 1px;
+    font-size: 0.5em;
+    padding: 0.6%;
+    margin: 0 auto 2%;
+    cursor: s-resize;
+    top: 20px;
+  }
+  .about-title-members:hover {
+    top: 0;
+  }
+
+  .member {
+    display: block;
+    margin: 0.6% 2%;
+    font-size: 0.7em;
+  }
+
+
 }

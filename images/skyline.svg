@@ -54,15 +54,15 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 15s, 7s;
-				 -o-animation-duration: 15s, 7s;
-				 -moz-animation-duration: 15s, 7s;
-				 -webkit-animation-duration: 15s, 7s;
+				 animation-duration: 5s, 7s;
+				 -o-animation-duration: 5s, 7s;
+				 -moz-animation-duration: 5s, 7s;
+				 -webkit-animation-duration: 5s, 7s;
 
-				 animation-delay: 5s, 12s;
-				 -o-animation-delay: 5s, 12s;
-				 -moz-animation-delay: 5s, 12s;
-				 -webkit-animation-delay: 5s, 12s;
+				 animation-delay: 5s, 8s;
+				 -o-animation-delay: 5s, 8s;
+				 -moz-animation-delay: 5s, 8s;
+				 -webkit-animation-delay: 5s, 8s;
 
 				 animation-timing-function: ease-in-out;
 				 animation-fill-mode: forwards;
@@ -83,15 +83,15 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 15s, 7s;
-				 -o-animation-duration: 15s, 7s;
-				 -moz-animation-duration: 15s, 7s;
-				 -webkit-animation-duration: 15s, 7s;
+				 animation-duration: 5s, 7s;
+				 -o-animation-duration: 5s, 7s;
+				 -moz-animation-duration: 5s, 7s;
+				 -webkit-animation-duration: 5s, 7s;
 
-				 animation-delay: 1.9s, 12s;
-				 -o-animation-delay: 1.9s, 12s;
-				 -moz-animation-delay: 1.9s, 12s;
-				 -webkit-animation-delay: 1.9s, 12s;
+				 animation-delay: 1.9s, 8s;
+				 -o-animation-delay: 1.9s, 8s;
+				 -moz-animation-delay: 1.9s, 8s;
+				 -webkit-animation-delay: 1.9s, 8s;
 
 				 animation-timing-function: ease-in-out;
 				 animation-fill-mode: forwards;
@@ -112,15 +112,15 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 15s, 7s;
-				 -o-animation-duration: 15s, 7s;
-				 -moz-animation-duration: 15s, 7s;
-				 -webkit-animation-duration: 15s, 7s;
+				 animation-duration: 5s, 7s;
+				 -o-animation-duration: 5s, 7s;
+				 -moz-animation-duration: 5s, 7s;
+				 -webkit-animation-duration: 5s, 7s;
 
-				 animation-delay: 3s, 12s;
-				 -o-animation-delay: 3s, 12s;
-				 -moz-animation-delay: 3s, 12s;
-				 -webkit-animation-delay: 3s, 12s;
+				 animation-delay: 3s, 8s;
+				 -o-animation-delay: 3s, 8s;
+				 -moz-animation-delay: 3s, 8s;
+				 -webkit-animation-delay: 3s, 8s;
 
 				 animation-timing-function: ease-in-out;
 				 animation-fill-mode: forwards;
@@ -141,15 +141,15 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 9s, 7s;
-				 -o-animation-duration: 9s, 7s;
-				 -moz-animation-duration: 9s, 7s;
-				 -webkit-animation-duration: 9s, 7s;
+				 animation-duration: 7s, 7s;
+				 -o-animation-duration: 7s, 7s;
+				 -moz-animation-duration: 7s, 7s;
+				 -webkit-animation-duration: 7s, 7s;
 
-				 animation-delay: 2.3s, 12s;
-				 -o-animation-delay: 2.3s, 12s;
-				 -moz-animation-delay: 2.3s, 12s;
-				 -webkit-animation-delay: 2.3s, 12s;
+				 animation-delay: 2.3s, 8s;
+				 -o-animation-delay: 2.3s, 8s;
+				 -moz-animation-delay: 2.3s, 8s;
+				 -webkit-animation-delay: 2.3s, 8s;
 
 				 animation-timing-function: ease-in-out;
 				 animation-fill-mode: forwards;
@@ -170,15 +170,15 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 15s, 7s;
-				 -o-animation-duration: 15s, 7s;
-				 -moz-animation-duration: 15s, 7s;
-				 -webkit-animation-duration: 15s, 7s;
+				 animation-duration: 5s, 7s;
+				 -o-animation-duration: 5s, 7s;
+				 -moz-animation-duration: 5s, 7s;
+				 -webkit-animation-duration: 5s, 7s;
 
-				 animation-delay: 4s, 12s;
-				 -o-animation-delay: 4s, 12s;
-				 -moz-animation-delay: 4s, 12s;
-				 -webkit-animation-delay: 4s, 12s;
+				 animation-delay: 4s, 8s;
+				 -o-animation-delay: 4s, 8s;
+				 -moz-animation-delay: 4s, 8s;
+				 -webkit-animation-delay: 4s, 8s;
 
 				 animation-timing-function: ease-in-out;
 				 animation-fill-mode: forwards;
@@ -199,15 +199,15 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 15s, 7s;
-				 -o-animation-duration: 15s, 7s;
-				 -moz-animation-duration: 15s, 7s;
-				 -webkit-animation-duration: 15s, 7s;
+				 animation-duration: 5s, 7s;
+				 -o-animation-duration: 5s, 7s;
+				 -moz-animation-duration: 5s, 7s;
+				 -webkit-animation-duration: 5s, 7s;
 
-				 animation-delay: 6s, 12s;
-				 -o-animation-delay: 6s, 12s;
-				 -moz-animation-delay: 6s, 12s;
-				 -webkit-animation-delay: 6s, 12s;
+				 animation-delay: 6s, 8s;
+				 -o-animation-delay: 6s, 8s;
+				 -moz-animation-delay: 6s, 8s;
+				 -webkit-animation-delay: 6s, 8s;
 
 				 animation-timing-function: ease-in-out;
 				 animation-fill-mode: forwards;
@@ -228,15 +228,15 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 15s, 7s;
-				 -o-animation-duration: 15s, 7s;
-				 -moz-animation-duration: 15s, 7s;
-				 -webkit-animation-duration: 15s, 7s;
+				 animation-duration: 5s, 7s;
+				 -o-animation-duration: 5s, 7s;
+				 -moz-animation-duration: 5s, 7s;
+				 -webkit-animation-duration: 5s, 7s;
 
-				 animation-delay: 4.6s, 12s;
-				 -o-animation-delay: 4.6s, 12s;
-				 -moz-animation-delay: 4.6s, 12s;
-				 -webkit-animation-delay: 4.6s, 12s;
+				 animation-delay: 4.6s, 8s;
+				 -o-animation-delay: 4.6s, 8s;
+				 -moz-animation-delay: 4.6s, 8s;
+				 -webkit-animation-delay: 4.6s, 8s;
 
 				 animation-timing-function: ease-in-out;
 				 animation-fill-mode: forwards;
@@ -257,15 +257,15 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 15s, 7s;
-				 -o-animation-duration: 15s, 7s;
-				 -moz-animation-duration: 15s, 7s;
-				 -webkit-animation-duration: 15s, 7s;
+				 animation-duration: 5s, 7s;
+				 -o-animation-duration: 5s, 7s;
+				 -moz-animation-duration: 5s, 7s;
+				 -webkit-animation-duration: 5s, 7s;
 
-				 animation-delay: 1.5s, 12s;
-				 -o-animation-delay: 1.5s, 12s;
-				 -moz-animation-delay: 1.5s, 12s;
-				 -webkit-animation-delay: 1.5s, 12s;
+				 animation-delay: 1.5s, 8s;
+				 -o-animation-delay: 1.5s, 8s;
+				 -moz-animation-delay: 1.5s, 8s;
+				 -webkit-animation-delay: 1.5s, 8s;
 
 				 animation-timing-function: ease-in-out;
 				 animation-fill-mode: forwards;
@@ -286,15 +286,15 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 15s, 7s;
-				 -o-animation-duration: 15s, 7s;
-				 -moz-animation-duration: 15s, 7s;
-				 -webkit-animation-duration: 15s, 7s;
+				 animation-duration: 5s, 7s;
+				 -o-animation-duration: 5s, 7s;
+				 -moz-animation-duration: 5s, 7s;
+				 -webkit-animation-duration: 5s, 7s;
 
-				 animation-delay: 5.5s, 12s;
-				 -o-animation-delay: 5.5s, 12s;
-				 -moz-animation-delay: 5.5s, 12s;
-				 -webkit-animation-delay: 5.5s, 12s;
+				 animation-delay: 5.5s, 8s;
+				 -o-animation-delay: 5.5s, 8s;
+				 -moz-animation-delay: 5.5s, 8s;
+				 -webkit-animation-delay: 5.5s, 8s;
 
 				 animation-timing-function: ease-in-out;
 				 animation-fill-mode: forwards;
@@ -315,15 +315,15 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 15s, 7s;
-				 -o-animation-duration: 15s, 7s;
-				 -moz-animation-duration: 15s, 7s;
-				 -webkit-animation-duration: 15s, 7s;
+				 animation-duration: 5s, 7s;
+				 -o-animation-duration: 5s, 7s;
+				 -moz-animation-duration: 5s, 7s;
+				 -webkit-animation-duration: 5s, 7s;
 
-				 animation-delay: 4s, 12s;
-				 -o-animation-delay: 4s, 12s;
-				 -moz-animation-delay: 4s, 12s;
-				 -webkit-animation-delay: 4s, 12s;
+				 animation-delay: 4s, 8s;
+				 -o-animation-delay: 4s, 8s;
+				 -moz-animation-delay: 4s, 8s;
+				 -webkit-animation-delay: 4s, 8s;
 
 				 animation-timing-function: ease-in-out;
 				 animation-fill-mode: forwards;
@@ -344,15 +344,15 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 15s, 7s;
-				 -o-animation-duration: 15s, 7s;
-				 -moz-animation-duration: 15s, 7s;
-				 -webkit-animation-duration: 15s, 7s;
+				 animation-duration: 5s, 7s;
+				 -o-animation-duration: 5s, 7s;
+				 -moz-animation-duration: 5s, 7s;
+				 -webkit-animation-duration: 5s, 7s;
 
-				 animation-delay: 1s, 12s;
-				 -o-animation-delay: 1s, 12s;
-				 -moz-animation-delay: 1s, 12s;
-				 -webkit-animation-delay: 1s, 12s;
+				 animation-delay: 1s, 8s;
+				 -o-animation-delay: 1s, 8s;
+				 -moz-animation-delay: 1s, 8s;
+				 -webkit-animation-delay: 1s, 8s;
 
 				 animation-timing-function: ease-in-out;
 				 animation-fill-mode: forwards;
@@ -373,15 +373,15 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 15s, 7s;
-				 -o-animation-duration: 15s, 7s;
-				 -moz-animation-duration: 15s, 7s;
-				 -webkit-animation-duration: 15s, 7s;
+				 animation-duration: 5s, 7s;
+				 -o-animation-duration: 5s, 7s;
+				 -moz-animation-duration: 5s, 7s;
+				 -webkit-animation-duration: 5s, 7s;
 
-				 animation-delay: 7s, 12s;
-				 -o-animation-delay: 7s, 12s;
-				 -moz-animation-delay: 7s, 12s;
-				 -webkit-animation-delay: 7s, 12s;
+				 animation-delay: 7s, 8s;
+				 -o-animation-delay: 7s, 8s;
+				 -moz-animation-delay: 7s, 8s;
+				 -webkit-animation-delay: 7s, 8s;
 
 				 animation-timing-function: ease-in-out;
 				 animation-fill-mode: forwards;
@@ -402,15 +402,15 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 15s, 7s;
-				 -o-animation-duration: 15s, 7s;
-				 -moz-animation-duration: 15s, 7s;
-				 -webkit-animation-duration: 15s, 7s;
+				 animation-duration: 5s, 7s;
+				 -o-animation-duration: 5s, 7s;
+				 -moz-animation-duration: 5s, 7s;
+				 -webkit-animation-duration: 5s, 7s;
 
-				 animation-delay: 2s, 12s;
-				 -o-animation-delay: 2s, 12s;
-				 -moz-animation-delay: 2s, 12s;
-				 -webkit-animation-delay: 2s, 12s;
+				 animation-delay: 2s, 8s;
+				 -o-animation-delay: 2s, 8s;
+				 -moz-animation-delay: 2s, 8s;
+				 -webkit-animation-delay: 2s, 8s;
 
 				 animation-timing-function: ease-in-out;
 				 animation-fill-mode: forwards;
@@ -431,15 +431,15 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 15s, 7s;
-				 -o-animation-duration: 15s, 7s;
-				 -moz-animation-duration: 15s, 7s;
-				 -webkit-animation-duration: 15s, 7s;
+				 animation-duration: 5s, 7s;
+				 -o-animation-duration: 5s, 7s;
+				 -moz-animation-duration: 5s, 7s;
+				 -webkit-animation-duration: 5s, 7s;
 
-				 animation-delay: 6s, 12s;
-				 -o-animation-delay: 6s, 12s;
-				 -moz-animation-delay: 6s, 12s;
-				 -webkit-animation-delay: 6s, 12s;
+				 animation-delay: 6s, 8s;
+				 -o-animation-delay: 6s, 8s;
+				 -moz-animation-delay: 6s, 8s;
+				 -webkit-animation-delay: 6s, 8s;
 
 				 animation-timing-function: ease-in-out;
 				 animation-fill-mode: forwards;
