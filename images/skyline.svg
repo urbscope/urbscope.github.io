@@ -12,11 +12,11 @@
 		 		}
 		 		@-webkit-keyframes fill {
 		 			from { fill-opacity: 0; }
-		 			to { fill-opacity: 1; }
+		 			to { fill-opacity: 1;  }
 		 		}
 		 		@-moz-keyframes dash {
 		 			from { stroke-dashoffset: 1500; }
-		 			to{ stroke-dashoffset: 0; }
+		 			to{ stroke-dashoffset: 0;  }
 		 		}
 		 		@-moz-keyframes fill {
 		 			from { fill-opacity: 0; }
@@ -35,8 +35,9 @@
 		 			to{ stroke-dashoffset: 0; }
 		 		}
 		 		@keyframes fill {
-		 			from { fill-opacity: 0; }
-		 			to { fill-opacity: 1; }
+		 			0% { fill-opacity: 0; }
+		 			80% { fill-opacity: 1; stroke: #E5E5E5}
+					100% { fill-opacity: 1;  stroke: rgba(0,0,0,0)}
 		 		}
 
 			 .b1 {
@@ -54,10 +55,10 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 2.5s, 4s;
-				 -o-animation-duration: 2.5s, 4s;
-				 -moz-animation-duration: 2.5s, 4s;
-				 -webkit-animation-duration: 2.5s, 4s;
+				 animation-duration: 2.5s, 8s;
+				 -o-animation-duration: 2.5s, 8s;
+				 -moz-animation-duration: 2.5s, 8s;
+				 -webkit-animation-duration: 2.5s, 8s;
 
 				 animation-delay: 2.5s, 4s;
 				 -o-animation-delay: 2.5s, 4s;
@@ -83,10 +84,10 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 2.5s, 4s;
-				 -o-animation-duration: 2.5s, 4s;
-				 -moz-animation-duration: 2.5s, 4s;
-				 -webkit-animation-duration: 2.5s, 4s;
+				 animation-duration: 2.5s, 8s;
+				 -o-animation-duration: 2.5s, 8s;
+				 -moz-animation-duration: 2.5s, 8s;
+				 -webkit-animation-duration: 2.5s, 8s;
 
 				 animation-delay: 1.9s, 4s;
 				 -o-animation-delay: 1.9s, 4s;
@@ -112,10 +113,10 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 2.5s, 4s;
-				 -o-animation-duration: 2.5s, 4s;
-				 -moz-animation-duration: 2.5s, 4s;
-				 -webkit-animation-duration: 2.5s, 4s;
+				 animation-duration: 2.5s, 8s;
+				 -o-animation-duration: 2.5s, 8s;
+				 -moz-animation-duration: 2.5s, 8s;
+				 -webkit-animation-duration: 2.5s, 8s;
 
 				 animation-delay: 4s, 4s;
 				 -o-animation-delay: 4s, 4s;
@@ -141,10 +142,10 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 4s, 4s;
-				 -o-animation-duration: 4s, 4s;
-				 -moz-animation-duration: 4s, 4s;
-				 -webkit-animation-duration: 4s, 4s;
+				 animation-duration: 4s, 8s;
+				 -o-animation-duration: 4s, 8s;
+				 -moz-animation-duration: 4s, 8s;
+				 -webkit-animation-duration: 4s, 8s;
 
 				 animation-delay: 2.3s, 4s;
 				 -o-animation-delay: 2.3s, 4s;
@@ -170,10 +171,10 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 2.5s, 4s;
-				 -o-animation-duration: 2.5s, 4s;
-				 -moz-animation-duration: 2.5s, 4s;
-				 -webkit-animation-duration: 2.5s, 4s;
+				 animation-duration: 2.5s, 8s;
+				 -o-animation-duration: 2.5s, 8s;
+				 -moz-animation-duration: 2.5s, 8s;
+				 -webkit-animation-duration: 2.5s, 8s;
 
 				 animation-delay: 4s, 4s;
 				 -o-animation-delay: 4s, 4s;
@@ -199,10 +200,10 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 2.5s, 4s;
-				 -o-animation-duration: 2.5s, 4s;
-				 -moz-animation-duration: 2.5s, 4s;
-				 -webkit-animation-duration: 2.5s, 4s;
+				 animation-duration: 2.5s, 8s;
+				 -o-animation-duration: 2.5s, 8s;
+				 -moz-animation-duration: 2.5s, 8s;
+				 -webkit-animation-duration: 2.5s, 8s;
 
 				 animation-delay: 4s, 4s;
 				 -o-animation-delay: 4s, 4s;
@@ -228,10 +229,10 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 2.5s, 4s;
-				 -o-animation-duration: 2.5s, 4s;
-				 -moz-animation-duration: 2.5s, 4s;
-				 -webkit-animation-duration: 2.5s, 4s;
+				 animation-duration: 2.5s, 8s;
+				 -o-animation-duration: 2.5s, 8s;
+				 -moz-animation-duration: 2.5s, 8s;
+				 -webkit-animation-duration: 2.5s, 8s;
 
 				 animation-delay: 4.6s, 4s;
 				 -o-animation-delay: 4.6s, 4s;
@@ -257,10 +258,10 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 2.5s, 4s;
-				 -o-animation-duration: 2.5s, 4s;
-				 -moz-animation-duration: 2.5s, 4s;
-				 -webkit-animation-duration: 2.5s, 4s;
+				 animation-duration: 2.5s, 8s;
+				 -o-animation-duration: 2.5s, 8s;
+				 -moz-animation-duration: 2.5s, 8s;
+				 -webkit-animation-duration: 2.5s, 8s;
 
 				 animation-delay: 1.5s, 4s;
 				 -o-animation-delay: 1.5s, 4s;
@@ -286,10 +287,10 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 2.5s, 4s;
-				 -o-animation-duration: 2.5s, 4s;
-				 -moz-animation-duration: 2.5s, 4s;
-				 -webkit-animation-duration: 2.5s, 4s;
+				 animation-duration: 2.5s, 8s;
+				 -o-animation-duration: 2.5s, 8s;
+				 -moz-animation-duration: 2.5s, 8s;
+				 -webkit-animation-duration: 2.5s, 8s;
 
 				 animation-delay: 3.5s, 4s;
 				 -o-animation-delay: 3.5s, 4s;
@@ -315,10 +316,10 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 2.5s, 4s;
-				 -o-animation-duration: 2.5s, 4s;
-				 -moz-animation-duration: 2.5s, 4s;
-				 -webkit-animation-duration: 2.5s, 4s;
+				 animation-duration: 2.5s, 8s;
+				 -o-animation-duration: 2.5s, 8s;
+				 -moz-animation-duration: 2.5s, 8s;
+				 -webkit-animation-duration: 2.5s, 8s;
 
 				 animation-delay: 4s, 4s;
 				 -o-animation-delay: 4s, 4s;
@@ -344,10 +345,10 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 2.5s, 4s;
-				 -o-animation-duration: 2.5s, 4s;
-				 -moz-animation-duration: 2.5s, 4s;
-				 -webkit-animation-duration: 2.5s, 4s;
+				 animation-duration: 2.5s, 8s;
+				 -o-animation-duration: 2.5s, 8s;
+				 -moz-animation-duration: 2.5s, 8s;
+				 -webkit-animation-duration: 2.5s, 8s;
 
 				 animation-delay: 1s, 4s;
 				 -o-animation-delay: 1s, 4s;
@@ -373,10 +374,10 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 2.5s, 4s;
-				 -o-animation-duration: 2.5s, 4s;
-				 -moz-animation-duration: 2.5s, 4s;
-				 -webkit-animation-duration: 2.5s, 4s;
+				 animation-duration: 2.5s, 8s;
+				 -o-animation-duration: 2.5s, 8s;
+				 -moz-animation-duration: 2.5s, 8s;
+				 -webkit-animation-duration: 2.5s, 8s;
 
 				 animation-delay: 2.5s, 2.5s;
 				 -o-animation-delay: 2.5s, 2.5s;
@@ -402,10 +403,10 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 2.5s, 4s;
-				 -o-animation-duration: 2.5s, 4s;
-				 -moz-animation-duration: 2.5s, 4s;
-				 -webkit-animation-duration: 2.5s, 4s;
+				 animation-duration: 2.5s, 8s;
+				 -o-animation-duration: 2.5s, 8s;
+				 -moz-animation-duration: 2.5s, 8s;
+				 -webkit-animation-duration: 2.5s, 8s;
 
 				 animation-delay: 2s, 4s;
 				 -o-animation-delay: 2s, 4s;
@@ -431,10 +432,10 @@
 				 -moz-animation-name: dash, fill;
 				 -webkit-animation-name: dash, fill;
 
-				 animation-duration: 2.5s, 4s;
-				 -o-animation-duration: 2.5s, 4s;
-				 -moz-animation-duration: 2.5s, 4s;
-				 -webkit-animation-duration: 2.5s, 4s;
+				 animation-duration: 2.5s, 8s;
+				 -o-animation-duration: 2.5s, 8s;
+				 -moz-animation-duration: 2.5s, 8s;
+				 -webkit-animation-duration: 2.5s, 8s;
 
 				 animation-delay: 4s, 4s;
 				 -o-animation-delay: 4s, 4s;
@@ -446,14 +447,14 @@
 			 }
 
 			 .building {
-			 	 transition: all 1s;
+			 	 transition: all 0.5s;
 				 transform-origin: unset 100%;
 				 position: relative;
 				 z-index: 0;
 			 }
 
 			 .building:hover {
- 				 fill: #FFFF66;
+ 				 fill: #D92734;
 				 z-index: 1;
 			 }
 

@@ -14,7 +14,7 @@ html, body {
   width: 100%;
 
   font-family: 'Quicksand';
-  background-color: #e5e5e5;
+  background-color: #eeeeee;
 
   /* Standard syntax */
   /*background-image: url("ps-neutral.png");*/
@@ -40,7 +40,7 @@ html, body {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
-  background: linear-gradient(to right, #021631 , #032149, #002448);
+  background: linear-gradient(to bottom, #D92734 , #D92734, #FF8800);
   box-shadow: 1px 1px 10px 0 #333;
 }
 
@@ -59,6 +59,7 @@ html, body {
   color: #e5e5e5;
 }
 
+
 .button-title {
   font-size: 135%;
   color: #e5e5e5;
@@ -72,7 +73,7 @@ html, body {
 }
 
 .button-title:hover {
-  color: #002448;
+  color: #D92734;
   text-decoration: none;
   border: solid #e5e5e5;
   background-color: #e5e5e5;
@@ -104,22 +105,22 @@ html, body {
 
 .button {
   text-decoration: none;
-  color: #002448;
+  color: #D92734;
   display: inline-block;
   width: 20%;
   font-size: 130%;
   text-align: center;
   padding: 10px;
-  border: solid #002448;
+  border: solid #D92734;
   border-radius: 10px;
   margin: 0 2%;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 .button:hover {
   text-decoration: none;
   color: #e5e5e5;
-  background-color: #002448;
+  background-color: #D92734;
 }
 
 .button-disabled {
@@ -148,7 +149,7 @@ html, body {
 
 .about-title {
   font-size: 1.8em;
-  color: #002448;
+  color: #D92734;
 }
 
 .about-pargraph-section {
@@ -163,25 +164,30 @@ html, body {
 .about-title-section {
   transition: all 1s;
   cursor: default;
-  border: solid #002448;
-  color: #002448;
+  border: solid #D92734;
+  color: #D92734;
   padding: 15px;
   font-size: 1em;
   border-radius: 10px;
   top: 75px;
   margin-top: 10px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-title-section:hover {
   color: #e5e5e5;
-  background-color: #002448;
-  border: solid #002448;
+  background-color: #D92734;
+  border: solid #D92734;
   border-radius: 10px;
 }
 
 .about-title-section:hover + .about-pargraph-section {
   display: block;
-  transform: scale(1.2); 
+  transform: scale(1.2);
 }
 
 .about-section {
@@ -201,8 +207,8 @@ html, body {
   display: block;
   width: 20%;
   transition: all 0.5s;
-  border: solid #002448;
-  color: #002448;
+  border: solid #D92734;
+  color: #D92734;
   font-size: 1em;
   border-radius: 10px;
   padding: 0.4%;
@@ -223,7 +229,7 @@ html, body {
 }
 .about-title-members:hover {
   color: #e5e5e5;
-  background-color: #002448;
+  background-color: #D92734;
 }
 
 .about-title-members:hover + .members {
@@ -231,15 +237,22 @@ html, body {
 }
 
 
+.video {
+  width: 80%;
+  height: 500px;
+  margin-top: 40px;
+}
+
 #about-section-outro {
   font-size: 1.2em;
   transition: all 0.5s;
   cursor: default;
   margin: 3% 0;
+  color: #D92734;
 }
 #about-section-outro:hover {
-  color: red;
-  font-size: 1.6em;
+  /* color: #D92734; */
+  transform: scale(1.2);
 }
 
 @media screen and (max-width: 900px) {
@@ -317,6 +330,12 @@ html, body {
     right: 0;
     margin: auto;
   }
+
+  .video {
+    width: 100%;
+    height: 350px;
+    margin-top: 40px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -391,7 +410,7 @@ html, body {
     padding: 0.6%;
     margin: 0 auto 2%;
     cursor: default;
-    top: 20px;
+    /* top: 20px; */
   }
   .about-title-members:hover {
     top: 0;
@@ -403,5 +422,10 @@ html, body {
     font-size: 0.7em;
   }
 
+  .video {
+    width: 100%;
+    height: 300px;
+    margin-top: 40px;
+  }
 
 }
